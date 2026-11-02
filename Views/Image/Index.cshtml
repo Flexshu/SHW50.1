@@ -1,0 +1,32 @@
+﻿@model IEnumerable<ProductImage>
+
+@{
+    ViewData["Title"] = "ProductImage List";
+    Layout = "_Layout";
+}
+<link rel="stylesheet" href="~/css/image.css">
+<a class="btn btn-success" href="@Url.Action("Index", "Product")">Main Products</a>
+@if (!User.Identity.IsAuthenticated)
+{
+    <a class="btn btn-danger" href="@Url.Action("Register", "User")">Ragister</a>
+    <a class="btn btn-primary" href="@Url.Action("Login", "User")">Login</a>
+}
+else
+{
+    <a class="btn btn-success" href="@Url.Action("Insert", "Image")">Insert Image</a>
+}
+
+@foreach(var image in Model)
+{
+    <div>
+        <p class="ProductIdImage">ProductId: @image.ProductId</p><hr />
+        <img src="~/img/@image.ImageUrl" width="300" alt="Product Image" />
+        @if (User.Identity.IsAuthenticated)
+        {
+            <div>
+                <a class="btn btn-primary" href="@Url.Action("Update", "Image", new { id = image.Id })">Update</a>
+                <a class="btn btn-danger" href="@Url.Action("Delete", "Image", new { id = image.Id })">Delete</a>
+            </div>
+        }
+    </div>
+}

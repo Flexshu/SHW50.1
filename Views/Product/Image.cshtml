@@ -1,0 +1,16 @@
+﻿@model ProductImage
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Add Product Image";
+    Layout = "_Layout";
+}
+
+<form class="form-control" asp-action="Image" asp-controller="Product" method="post">
+    <input type="hidden" asp-for="ProductId" />
+    <label asp-for="ImageUrl">ImageUrl</label>
+    <input class="form-control" asp-for="ImageUrl" type="text" />
+    <span class="text-danger" asp-validation-for="ImageUrl"></span>
+    <button class="btn btn-success" type="submit">Add</button>
+    <a class="btn btn-secondary" asp-action="Index" asp-controller="Product">Cancel</a>
+</form>

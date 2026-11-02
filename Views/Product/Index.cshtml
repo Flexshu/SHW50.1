@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Product>
+
+@{
+    ViewData["Title"] = "Product List";
+    Layout = "_Layout";
+}
+<a class="btn btn-success" href="@Url.Action("Create", "Product")">Create</a>
+<a class="btn btn-info" href="@Url.Action("Read", "Category")">Category List</a>
+@if(!User.Identity.IsAuthenticated)
+{
+    <a class="btn btn-danger" href="@Url.Action("Register", "User")">Ragister</a>
+    <a class="btn btn-primary" href="@Url.Action("Login", "User")">Login</a>
+}
+else
+{
+    <a class="btn btn-dark" href="@Url.Action("Logout", "User")">Logout</a>
+    <a class="btn btn-info" href="@Url.Action("Create", "Role")">CreateRole</a>
+    <a class="btn btn-success" href="@Url.Action("Assign", "Role")">AssignRole</a>
+    <a class="btn btn-warning" href="@Url.Action("Index", "Image")">Index Image</a>
+    <a class="btn btn-primary" href="@Url.Action("Insert", "Image")">Insert Image</a>
+
+    <h2>@User.Identity.Name</h2>
+}
+
+<table class="table table-info">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Description</th>
+            <th>Quantity</th>
+            <th>Category</th>
+            <th>Image</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Name</td>
+                <td>@product.Price</td>
+                <td>@product.Description</td>
+                <td>@product.Quantity</td>
+                <td>@product.CategoryId</td>
+                <td>
+                    @if (product.ProductImages != null)
+                    {
+                        @foreach (var image in product.ProductImages)
+                        {
+                            <div>
+                                <span>Picture!!!</span>
+                                <img src="~/img/@image.ImageUrl" width="300" alt="Product Image" />
+                            </div>
+                        }
+                    }
+                </td>
+                <td>
+                    <a class="btn btn-primary" href="@Url.Action("Edit", "Product", new { id = product.Id })">Edit</a>
+                    <a class="btn btn-danger" href="@Url.Action("Delete", "Product", new { id = product.Id })">Delete</a>
+                    <a class="btn btn-info" href="@Url.Action("Details", "Product", new { id = product.Id })">Details</a>
+                    <a class="btn btn-success" href="@Url.Action("Image", "Product", new { id = product.Id })">Add Image</a>
+                </td>                     
+            </tr>
+        }
+    </tbody>
+</table>

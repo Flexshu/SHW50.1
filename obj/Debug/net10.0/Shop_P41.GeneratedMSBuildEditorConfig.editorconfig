@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Shop_P41
+build_property.RootNamespace = Shop_P41
+build_property.ProjectDir = /Users/Yehor/Documents/Єгора/C#/HW50.1/Shop_P41_repo/Shop_P41/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/Yehor/Documents/Єгора/C#/HW50.1/Shop_P41_repo/Shop_P41
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[/Users/Yehor/Documents/Єгора/C\#/HW50.1/Shop_P41_repo/Shop_P41/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Yehor/Documents/Єгора/C\#/HW50.1/Shop_P41_repo/Shop_P41/Views/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Yehor/Documents/Єгора/C\#/HW50.1/Shop_P41_repo/Shop_P41/Views/Category/Read.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvUmVhZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Yehor/Documents/Єгора/C\#/HW50.1/Shop_P41_repo/Shop_P41/Views/Category/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Yehor/Documents/Єгора/C\#/HW50.1/Shop_P41_repo/Shop_P41/Views/Image/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW1hZ2UvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Yehor/Documents/Єгора/C\#/HW50.1/Shop_P41_repo/Shop_P41/Views/Image/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW1hZ2UvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Yehor/Documents/Єгора/C\#/HW50.1/Shop_P41_repo/Shop_P41/Views/Image/Insert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW1hZ2UvSW5zZXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Yehor/Documents/Єгора/C\#/HW50.1/Shop_P41_repo/Shop_P41/Views/Image/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW1hZ2UvVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Yehor/Documents/Єгора/C\#/HW50.1/Shop_P41_repo/Shop_P41/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Yehor/Documents/Єгора/C\#/HW50.1/Shop_P41_repo/Shop_P41/Views/Product/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Yehor/Documents/Єгора/C\#/HW50.1/Shop_P41_repo/Shop_P41/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Yehor/Documents/Єгора/C\#/HW50.1/Shop_P41_repo/Shop_P41/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Yehor/Documents/Єгора/C\#/HW50.1/Shop_P41_repo/Shop_P41/Views/Product/Image.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9JbWFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Yehor/Documents/Єгора/C\#/HW50.1/Shop_P41_repo/Shop_P41/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Yehor/Documents/Єгора/C\#/HW50.1/Shop_P41_repo/Shop_P41/Views/Role/Assign.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9Bc3NpZ24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Yehor/Documents/Єгора/C\#/HW50.1/Shop_P41_repo/Shop_P41/Views/Role/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Yehor/Documents/Єгора/C\#/HW50.1/Shop_P41_repo/Shop_P41/Views/Role/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Yehor/Documents/Єгора/C\#/HW50.1/Shop_P41_repo/Shop_P41/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Yehor/Documents/Єгора/C\#/HW50.1/Shop_P41_repo/Shop_P41/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Yehor/Documents/Єгора/C\#/HW50.1/Shop_P41_repo/Shop_P41/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Yehor/Documents/Єгора/C\#/HW50.1/Shop_P41_repo/Shop_P41/Views/User/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
